@@ -33,7 +33,6 @@ func scraper(categoName, categoURL string) {
 		}
 		if len(titles) == 0 {
 			fmt.Println(i, "Tour of category ", categoName, "is completed")
-			break
 		}
 		i++
 	}
